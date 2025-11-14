@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          Hi, My Name Is Rayan Ouzzine and I'm a Web Developer in training.
+          Here's my portfolio!
+        </p>
+        <video controls width="300">
+          <source src="video/rayan01.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <hr />
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a student learning Full Stack Web Development in GomyCode.</p>
+        <p>I love creating clean and simple web applications.</p>
+
+        <h3>My Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+        </ul>
+
+        <h3>Education</h3>
+        <table border="1">
+          <tr>
+            <th>Year</th>
+            <th>Program</th>
+            <th>Institution</th>
+          </tr>
+          <tr>
+            <td>2025</td>
+            <td>Full Stack Development</td>
+            <td>Local Institute</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>Computer Science Basics</td>
+            <td>Online Courses</td>
+          </tr>
+        </table>
+      </section>
+
+      <hr />
+
+      <section id="work">
+        <h2>My Work</h2>
+        <article>
+          <h3>To-Do List App</h3>
+          <p>A simple app to manage daily tasks.</p>
+          <a href="#contact">Show My Work</a>
+        </article>
+
+        <article>
+          <h3>Landing Page</h3>
+          <p>A clean landing page made using HTML & CSS.</p>
+          <a href="#contact">Show My Work</a>
+        </article>
+
+        <article>
+          <h3>Random Joke Generator</h3>
+          <p>
+            It is a program, webpage, or service that returns a different joke
+            to you each time.
+          </p>
+          <a href="#contact">Show My Work</a>
+        </article>
+      </section>
+
+      <hr />
+
+      <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume below:</p>
+        <a href="assets/myCV.pdf" download>Download My CV</a>
+
+        <h3>Experience Table</h3>
+        <table border="1">
+          <tr>
+            <th>Year</th>
+            <th>Role</th>
+            <th>Company</th>
+          </tr>
+          <tr>
+            <td>2024</td>
+            <td>Backend Intern</td>
+            <td>Web Studio</td>
+          </tr>
+        </table>
+      </section>
+
+      <hr />
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label>Name:</label>
+          <input type="text" />
+
+          <label>Email:</label>
+          <input type="email" />
+
+          <label>Message:</label>
+          <textarea rows="5"></textarea>
+
+          <label>Preferred Contact Method:</label><br />
+          <input type="radio" name="method" /> Email
+          <input type="radio" name="method" /> Phone <br /><br />
+
+          <label> <input type="checkbox" /> I agree to the terms </label>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>© 2025 My Portfolio. All rights reserved.</p>
+      <p>
+        <a href="#home" style="color: white">Back to top</a>
+      </p>
+    </footer>
+  </body>
+</html>
